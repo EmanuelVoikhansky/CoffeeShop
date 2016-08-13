@@ -3,7 +3,6 @@
  * "mainView" property. That setting automatically applies the "viewport"
  * plugin causing this view to become the body element (i.e., the viewport).
  *
- * TODO - Replace this content of this view to suite the needs of your application.
  */
 Ext.define('CoffeeShop.view.main.Main', {
     extend: 'Ext.tab.Panel',
@@ -18,6 +17,8 @@ Ext.define('CoffeeShop.view.main.Main', {
         'CoffeeShop.view.main.List'
     ],
 
+    curTab: 'all',
+
     controller: 'main',
     viewModel: 'main',
 
@@ -26,6 +27,9 @@ Ext.define('CoffeeShop.view.main.Main', {
     tabBarHeaderPosition: 1,
     titleRotation: 0,
     tabRotation: 0,
+    listeners: {
+        beforetabchange: 'beforeTabChange'
+    },
 
     header: {
         layout: {
@@ -37,7 +41,7 @@ Ext.define('CoffeeShop.view.main.Main', {
             },
             flex: 0
         },
-        iconCls: 'fa-th-list'
+        iconCls: 'fa-coffee'
     },
 
     tabBar: {
@@ -69,36 +73,40 @@ Ext.define('CoffeeShop.view.main.Main', {
                 tall: {
                     iconAlign: 'top',
                     textAlign: 'center',
-                    width: 120
+                    width: 80
                 }
             }
         }
     },
 
     items: [{
-        title: 'Home',
-        iconCls: 'fa-home',
+        title: 'All Items',
+        filterBy: 'none',
+        iconCls: 'fa-circle',
         // The following grid shares a store with the classic version's grid as well!
         items: [{
             xtype: 'mainlist'
         }]
     }, {
-        title: 'Users',
-        iconCls: 'fa-user',
-        bind: {
-            html: '{loremIpsum}'
-        }
+        title: 'Coffee Beans',
+        filterBy: 'beans',
+        iconCls: 'fa-circle-o',
+        items: [{
+            xtype: 'mainlist',
+        }]
     }, {
-        title: 'Groups',
-        iconCls: 'fa-users',
-        bind: {
-            html: '{loremIpsum}'
-        }
+        title: 'Instant Coffee',
+        iconCls: 'fa-circle-o',
+        filterBy: 'ground',
+        items: [{
+            xtype: 'mainlist'
+        }]
     }, {
-        title: 'Settings',
-        iconCls: 'fa-cog',
-        bind: {
-            html: '{loremIpsum}'
-        }
+        title: 'Coffee Mugs',
+        filterBy: 'cup',
+        iconCls: 'fa-circle-o',
+        items: [{
+            xtype: 'mainlist',
+        }]
     }]
 });

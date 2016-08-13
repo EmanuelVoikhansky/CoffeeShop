@@ -1,2 +1,2 @@
 // @tag full-page
-// @require C:\Users\Emanuel\Documents\Dev\CoffeeShop\web\app.js
+// @require C:\Dev\CoffeeShop\web\app.js

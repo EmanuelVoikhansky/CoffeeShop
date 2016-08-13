@@ -1,7 +1,8 @@
 $app-name:  dynamic( 'CoffeeShop' );
-$image-search-path: 'C:/Users/Emanuel/Documents/Dev/CoffeeShop/web/build/development/CoffeeShop/resources';
+$image-search-path: 'C:/Dev/CoffeeShop/web/build/development/CoffeeShop/resources';
 $theme-name:  dynamic( 'theme-triton' );
 $include-coffeeshop-application: dynamic(true);;
+$include-coffeeshop-store-inventory: dynamic(true);;
 $include-coffeeshop-store-personnel: dynamic(true);;
 $include-coffeeshop-view-main-list: dynamic(true);;
 $include-coffeeshop-view-main-main: dynamic(true);;
