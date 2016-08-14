@@ -19,15 +19,17 @@ Ext.define('CoffeeShop.view.main.MainController', {
         }
     },
 
-    beforeTabChange: function (tabPanel, newTab, oldTab) {
-        var store = Ext.data.StoreManager.lookup('inventory');
-        newTab.setIconCls('fa-circle');
-        oldTab.setIconCls('fa-circle-o');
-        if (newTab.filterBy === 'none') {
+    beforeTabRender: function(grid) {
+        var store = grid.getStore();
+        if (grid.filterBy === 'none') {
             store.clearFilter();
         } else {
-            store.filter('category', newTab.filterBy);
+            store.filter('category', grid.filterBy);
         }
-        console.log(store.getData())
+    },
+
+    beforeTabChange: function (tabPanel, newTab, oldTab) {
+        newTab.setIconCls('fa-circle');
+        oldTab.setIconCls('fa-circle-o');
     }
 });

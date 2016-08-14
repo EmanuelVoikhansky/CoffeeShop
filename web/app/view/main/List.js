@@ -27,6 +27,7 @@ Ext.define('CoffeeShop.view.main.List', {
     ],
 
     listeners: {
-        select: 'onItemSelected'
+        select: 'onItemSelected',
+        beforerender: 'beforeTabRender'
     }
 });

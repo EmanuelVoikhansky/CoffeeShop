@@ -8,12 +8,11 @@ Ext.define('CoffeeShop.Application', {
     
     name: 'CoffeeShop',
 
-    stores: [
-        // TODO: add global / shared stores here
+    requires: [
+        'CoffeeShop.store.Inventory'
     ],
     
     launch: function () {
-        // TODO - Launch the application
     },
 
     onAppUpdate: function () {

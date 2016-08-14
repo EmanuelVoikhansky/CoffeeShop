@@ -81,32 +81,32 @@ Ext.define('CoffeeShop.view.main.Main', {
 
     items: [{
         title: 'All Items',
-        filterBy: 'none',
         iconCls: 'fa-circle',
         // The following grid shares a store with the classic version's grid as well!
         items: [{
-            xtype: 'mainlist'
+            xtype: 'mainlist',
+            filterBy: 'none'
         }]
     }, {
         title: 'Coffee Beans',
-        filterBy: 'beans',
         iconCls: 'fa-circle-o',
         items: [{
             xtype: 'mainlist',
+            filterBy: 'beans'
         }]
     }, {
         title: 'Instant Coffee',
         iconCls: 'fa-circle-o',
-        filterBy: 'ground',
         items: [{
-            xtype: 'mainlist'
+            xtype: 'mainlist',
+            filterBy: 'ground'
         }]
     }, {
         title: 'Coffee Mugs',
-        filterBy: 'cup',
         iconCls: 'fa-circle-o',
         items: [{
             xtype: 'mainlist',
+            filterBy: 'cup'
         }]
     }]
 });
