@@ -3,7 +3,8 @@ $image-search-path: 'C:/Dev/CoffeeShop/web/build/development/CoffeeShop/resource
 $theme-name:  dynamic( 'theme-triton' );
 $include-coffeeshop-application: dynamic(true);;
 $include-coffeeshop-store-inventory: dynamic(true);;
-$include-coffeeshop-store-personnel: dynamic(true);;
+$include-coffeeshop-view-itemcard-itemcard: dynamic(true);;
+$include-coffeeshop-view-itemcard-itemcardcontroller: dynamic(true);;
 $include-coffeeshop-view-main-list: dynamic(true);;
 $include-coffeeshop-view-main-main: dynamic(true);;
 $include-coffeeshop-view-main-maincontroller: dynamic(true);;

@@ -16,7 +16,8 @@ Ext.define('CoffeeShop.store.Inventory', {
             description: "Dark and deeply roasted blend perfect for a kick in the morning",
             numAvailable: 15,
             price: 12,
-            category: 'beans'
+            category: 'beans',
+            image: '<@images>/coffeebeans.jpg'
         },
         {
             itemId: 2,
@@ -24,7 +25,8 @@ Ext.define('CoffeeShop.store.Inventory', {
             description: "Light and nutty coffee perfect as a complement to sweets",
             numAvailable: 10,
             price: 10,
-            category: 'beans'
+            category: 'beans',
+            image: '<@images>/beans1.jpg'
         },
         {
             itemId: 3,
@@ -33,7 +35,8 @@ Ext.define('CoffeeShop.store.Inventory', {
              "locally grown and naturally harvested coffee of the highest sort. ",
             numAvailable: 2,
             price: 60,
-            category: 'beans'
+            category: 'beans',
+            image: '<@images>/beans2.jpg'
         },
         {
             itemId: 4,
@@ -41,7 +44,8 @@ Ext.define('CoffeeShop.store.Inventory', {
             description: "If it was any stronger it would be a regulated substance!",
             numAvailable: 30,
             price: 6,
-            category: 'ground'
+            category: 'ground',
+            image: '<@images>/ground1.jpg'
         },
         {
             itemId: 5,
@@ -49,7 +53,8 @@ Ext.define('CoffeeShop.store.Inventory', {
             description: "Because you for some reason want bitter black coffee without any kick?",
             numAvailable: 10,
             price: 5,
-            category: 'ground'
+            category: 'ground',
+            image: '<@images>/ground2.jpg'
         },
         {
             itemId: 6,
@@ -57,7 +62,8 @@ Ext.define('CoffeeShop.store.Inventory', {
             description: "Thick and extremely strong, best served in shots with cream",
             numAvailable: 2,
             price: 16,
-            category: 'ground'
+            category: 'ground',
+            image: '<@images>/ground3.jpg'
         },
         {
             itemId: 7,
@@ -65,7 +71,8 @@ Ext.define('CoffeeShop.store.Inventory', {
             description: "Show your love with your own unique CoffeeShop logo mug :)",
             numAvailable: 100,
             price: 15,
-            category: 'cup'
+            category: 'cup',
+            image: '<@images>/coffeeMug.jpg'
         }
     ]},
 

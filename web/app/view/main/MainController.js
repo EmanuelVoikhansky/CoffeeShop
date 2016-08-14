@@ -10,7 +10,18 @@ Ext.define('CoffeeShop.view.main.MainController', {
     alias: 'controller.main',
 
     onItemSelected: function (sender, record) {
-        Ext.Msg.confirm('Item added to cart', 'Proceed to checkout?', 'onConfirm', this);
+         var window = Ext.create({
+            xtype: 'window',
+            modal: true,
+            autoshow: true,
+            items: [
+                {
+                    xtype: 'item-card',
+                    item: record.data
+                }
+            ]
+        });
+        window.show();
     },
 
     onConfirm: function (choice) {
