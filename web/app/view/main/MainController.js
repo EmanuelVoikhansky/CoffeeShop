@@ -9,7 +9,7 @@ Ext.define('CoffeeShop.view.main.MainController', {
 
     alias: 'controller.main',
 
-    onItemSelected: function (sender, record) {
+    onItemSelected: function (ignore0, ignore1, ignore2, record) {
          var window = Ext.create({
             xtype: 'window',
             modal: true,
