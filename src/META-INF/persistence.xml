@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="CoffeePU">
+        <provider>oracle.toplink.essentials.PersistenceProvider</provider>
+        <class>java.com.coffeeshop.entity.ItemEntity</class>
+        <class>java.com.coffeeshop.entity.ItemDescriptionEntity</class>
+        <class>java.com.coffeeshop.entity.ShoppingCartEntity</class>
+        <class>java.com.coffeeshop.entity.UserEntity</class>
+        <properties>
+            <property name="toplink.jdbc.url" value="jdbc:mysql://localhost:3306/CoffeeShop"/>
+            <property name="toplink.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="toplink.jdbc.user"/>
+            <property name="toplink.jdbc.password"/>
+            <property name="toplink.logging.level" value="INFO"/>
+        </properties>
+    </persistence-unit>
+</persistence>

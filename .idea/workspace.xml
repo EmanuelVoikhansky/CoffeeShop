@@ -1,23 +1,522 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d12ebc1e-e466-4ef8-bd9e-68057233b095" name="Default" comment="Implements item cards with description and picture of item.&#10;&#10;In next push will add a shopping cart feature and related logic.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/images/beans1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/images/beans2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/images/coffeeMug.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/images/coffeebeans.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/images/ground1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/images/ground2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/resources/images/ground3.jpg" />
+    <list default="true" id="dc7c955a-c833-477a-827c-adb687900347" name="Default" comment="Basic structure of a RESTful web application. Note this has not been integrated with a container yet&#10;&#10;Just for example purposes, doesn't yet run. In my next push i'll get it operational within a TomEE container and connect the front end to the back.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DB_diagram.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javax.annotation.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javax.jms.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javax.persistence.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javax.resource.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/javax.transaction.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/ext/ext-watermark/fonts/ext-watermark.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/ext/ext-watermark/fonts/ext-watermark.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/ext/ext-watermark/fonts/ext-watermark.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/font-awesome/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/font-ext/fonts/ExtJS.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/font-ext/fonts/ExtJS.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/font-ext/fonts/ExtJS.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/fonts/OpenSans-Bold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/fonts/OpenSans-BoldItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/fonts/OpenSans-ExtraBold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/fonts/OpenSans-ExtraBoldItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/fonts/OpenSans-Italic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/fonts/OpenSans-Light.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/fonts/OpenSans-LightItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/fonts/OpenSans-Regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/fonts/OpenSans-Semibold.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/fonts/OpenSans-SemiboldItalic.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/beans1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/beans2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/breadcrumb/default-arrow-open-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/breadcrumb/default-arrow-open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/breadcrumb/default-arrow-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/breadcrumb/default-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/breadcrumb/default-scroll-left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/breadcrumb/default-scroll-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/breadcrumb/default-split-arrow-open-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/breadcrumb/default-split-arrow-open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/breadcrumb/default-split-arrow-over-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/breadcrumb/default-split-arrow-over.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/breadcrumb/default-split-arrow-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/breadcrumb/default-split-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn-group/btn-group-default-framed-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn-group/btn-group-default-framed-notitle-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn-group/btn-group-default-framed-notitle-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn-group/btn-group-default-framed-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-large-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-large-disabled-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-large-disabled-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-large-focus-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-large-focus-over-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-large-focus-over-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-large-focus-pressed-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-large-focus-pressed-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-large-focus-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-large-over-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-large-over-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-large-pressed-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-large-pressed-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-large-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-medium-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-medium-disabled-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-medium-disabled-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-medium-focus-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-medium-focus-over-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-medium-focus-over-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-medium-focus-pressed-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-medium-focus-pressed-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-medium-focus-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-medium-over-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-medium-over-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-medium-pressed-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-medium-pressed-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-medium-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-small-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-small-disabled-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-small-disabled-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-small-focus-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-small-focus-over-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-small-focus-over-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-small-focus-pressed-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-small-focus-pressed-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-small-focus-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-small-over-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-small-over-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-small-pressed-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-small-pressed-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-small-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-large-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-large-disabled-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-large-disabled-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-large-focus-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-large-focus-over-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-large-focus-over-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-large-focus-pressed-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-large-focus-pressed-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-large-focus-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-large-over-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-large-over-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-large-pressed-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-large-pressed-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-large-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-medium-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-medium-disabled-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-medium-disabled-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-medium-focus-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-medium-focus-over-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-medium-focus-over-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-medium-focus-pressed-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-medium-focus-pressed-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-medium-focus-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-medium-over-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-medium-over-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-medium-pressed-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-medium-pressed-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-medium-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-small-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-small-disabled-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-small-disabled-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-small-focus-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-small-focus-over-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-small-focus-over-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-small-focus-pressed-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-small-focus-pressed-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-small-focus-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-small-over-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-small-over-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-small-pressed-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-small-pressed-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-default-toolbar-small-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-plain-toolbar-large-focus-over-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-plain-toolbar-large-focus-over-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-plain-toolbar-large-focus-pressed-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-plain-toolbar-large-focus-pressed-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-plain-toolbar-large-over-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-plain-toolbar-large-over-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-plain-toolbar-large-pressed-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-plain-toolbar-large-pressed-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-plain-toolbar-medium-focus-over-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-plain-toolbar-medium-focus-over-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-plain-toolbar-medium-focus-pressed-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-plain-toolbar-medium-focus-pressed-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-plain-toolbar-medium-over-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-plain-toolbar-medium-over-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-plain-toolbar-medium-pressed-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-plain-toolbar-medium-pressed-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-plain-toolbar-small-focus-over-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-plain-toolbar-small-focus-over-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-plain-toolbar-small-focus-pressed-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-plain-toolbar-small-focus-pressed-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-plain-toolbar-small-over-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-plain-toolbar-small-over-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-plain-toolbar-small-pressed-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/btn/btn-plain-toolbar-small-pressed-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-large-arrow-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-large-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-large-s-arrow-b-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-large-s-arrow-b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-large-s-arrow-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-large-s-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-medium-arrow-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-medium-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-medium-s-arrow-b-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-medium-s-arrow-b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-medium-s-arrow-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-medium-s-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-small-arrow-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-small-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-small-s-arrow-b-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-small-s-arrow-b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-small-s-arrow-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-small-s-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-toolbar-large-arrow-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-toolbar-large-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-toolbar-large-s-arrow-b-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-toolbar-large-s-arrow-b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-toolbar-large-s-arrow-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-toolbar-large-s-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-toolbar-medium-arrow-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-toolbar-medium-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-toolbar-medium-s-arrow-b-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-toolbar-medium-s-arrow-b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-toolbar-medium-s-arrow-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-toolbar-medium-s-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-toolbar-small-arrow-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-toolbar-small-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-toolbar-small-s-arrow-b-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-toolbar-small-s-arrow-b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-toolbar-small-s-arrow-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/default-toolbar-small-s-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/grid-cell-small-arrow-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/grid-cell-small-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/grid-cell-small-s-arrow-b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/grid-cell-small-s-arrow-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/grid-cell-small-s-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/plain-toolbar-large-arrow-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/plain-toolbar-large-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/plain-toolbar-large-s-arrow-b-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/plain-toolbar-large-s-arrow-b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/plain-toolbar-large-s-arrow-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/plain-toolbar-large-s-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/plain-toolbar-medium-arrow-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/plain-toolbar-medium-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/plain-toolbar-medium-s-arrow-b-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/plain-toolbar-medium-s-arrow-b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/plain-toolbar-medium-s-arrow-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/plain-toolbar-medium-s-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/plain-toolbar-small-arrow-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/plain-toolbar-small-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/plain-toolbar-small-s-arrow-b-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/plain-toolbar-small-s-arrow-b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/plain-toolbar-small-s-arrow-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/button/plain-toolbar-small-s-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/coffeeMug.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/coffeebeans.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/datepicker/arrow-left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/datepicker/arrow-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/datepicker/month-arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/dd/drop-add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/dd/drop-no.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/dd/drop-yes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/editor/tb-sprite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/fieldset/collapse-tool.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/form/checkbox.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/form/clear-trigger-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/form/clear-trigger.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/form/date-trigger-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/form/date-trigger.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/form/exclamation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/form/radio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/form/search-trigger-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/form/search-trigger.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/form/spinner-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/form/spinner.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/form/tag-field-item-close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/form/trigger-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/form/trigger.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid-row-editor-buttons/grid-row-editor-buttons-default-bottom-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid-row-editor-buttons/grid-row-editor-buttons-default-bottom-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid-row-editor-buttons/grid-row-editor-buttons-default-top-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid-row-editor-buttons/grid-row-editor-buttons-default-top-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/col-move-bottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/col-move-top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/columns.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/dd-insert-arrow-left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/dd-insert-arrow-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/dirty-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/dirty.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/drop-no.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/drop-yes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/filters/equals.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/filters/find.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/filters/greater_than.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/filters/less_than.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/group-by.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/group-collapse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/group-expand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/hd-pop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/hmenu-asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/hmenu-desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/hmenu-lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/hmenu-unlock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/page-first.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/page-last.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/page-next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/page-prev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/pick-button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/grid/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/ground1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/ground2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/ground3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/loadmask/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/magnify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/menu/default-checked.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/menu/default-group-checked.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/menu/default-menu-parent-left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/menu/default-menu-parent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/menu/default-scroll-bottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/menu/default-scroll-top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/menu/default-unchecked.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-default-framed-bottom-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-default-framed-bottom-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-default-framed-collapsed-bottom-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-default-framed-collapsed-bottom-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-default-framed-collapsed-left-corners-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-default-framed-collapsed-left-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-default-framed-collapsed-left-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-default-framed-collapsed-right-corners-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-default-framed-collapsed-right-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-default-framed-collapsed-right-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-default-framed-collapsed-top-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-default-framed-collapsed-top-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-default-framed-left-corners-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-default-framed-left-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-default-framed-left-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-default-framed-right-corners-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-default-framed-right-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-default-framed-right-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-default-framed-top-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-default-framed-top-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-light-framed-bottom-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-light-framed-bottom-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-light-framed-collapsed-bottom-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-light-framed-collapsed-bottom-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-light-framed-collapsed-left-corners-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-light-framed-collapsed-left-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-light-framed-collapsed-left-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-light-framed-collapsed-right-corners-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-light-framed-collapsed-right-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-light-framed-collapsed-right-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-light-framed-collapsed-top-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-light-framed-collapsed-top-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-light-framed-left-corners-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-light-framed-left-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-light-framed-left-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-light-framed-right-corners-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-light-framed-right-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-light-framed-right-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-light-framed-top-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel-header/panel-header-light-framed-top-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel/panel-default-framed-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel/panel-default-framed-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel/panel-light-framed-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/panel/panel-light-framed-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/shared/icon-error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/shared/icon-info.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/shared/icon-question.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/shared/icon-warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/sizer/e-handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/sizer/ne-handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/sizer/nw-handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/sizer/s-handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/sizer/se-handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/sizer/sw-handle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/slider/slider-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/slider/slider-thumb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/slider/slider-v-bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/slider/slider-v-thumb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tab-bar/default-plain-scroll-bottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tab-bar/default-plain-scroll-left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tab-bar/default-plain-scroll-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tab-bar/default-plain-scroll-top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tab-bar/default-scroll-bottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tab-bar/default-scroll-left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tab-bar/default-scroll-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tab-bar/default-scroll-top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tab/tab-default-bottom-active-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tab/tab-default-bottom-focus-active-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tab/tab-default-bottom-focus-over-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tab/tab-default-bottom-over-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tab/tab-default-close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tab/tab-default-left-active-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tab/tab-default-left-focus-active-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tab/tab-default-left-focus-over-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tab/tab-default-left-over-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tab/tab-default-right-active-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tab/tab-default-right-focus-active-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tab/tab-default-right-focus-over-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tab/tab-default-right-over-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tab/tab-default-top-active-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tab/tab-default-top-focus-active-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tab/tab-default-top-focus-over-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tab/tab-default-top-over-fbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tip/tip-default-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tip/tip-default-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tip/tip-form-invalid-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tip/tip-form-invalid-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/toolbar/default-more-left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/toolbar/default-more.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/toolbar/default-scroll-bottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/toolbar/default-scroll-left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/toolbar/default-scroll-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/toolbar/default-scroll-top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/toolbar/footer-more-left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/toolbar/footer-more.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/toolbar/footer-scroll-left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/toolbar/footer-scroll-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tools/tool-sprites-dark.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tools/tool-sprites.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/arrows-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/arrows.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/drop-above.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/drop-add.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/drop-add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/drop-append.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/drop-below.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/drop-between.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/drop-between.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/drop-no.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/drop-no.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/drop-over.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/drop-over.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/drop-under.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/drop-under.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/drop-yes.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/drop-yes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/elbow-end-minus-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/elbow-end-minus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/elbow-end-plus-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/elbow-end-plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/elbow-end-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/elbow-end.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/elbow-line-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/elbow-line.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/elbow-minus-nl-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/elbow-minus-nl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/elbow-minus-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/elbow-minus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/elbow-plus-nl-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/elbow-plus-nl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/elbow-plus-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/elbow-plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/elbow-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/elbow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/folder-open-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/folder-open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/folder-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/folder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/leaf-rtl.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/leaf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/tree/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/util/splitter/mini-bottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/util/splitter/mini-left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/util/splitter/mini-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/util/splitter/mini-top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/window-header/window-header-default-bottom-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/window-header/window-header-default-bottom-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/window-header/window-header-default-collapsed-bottom-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/window-header/window-header-default-collapsed-bottom-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/window-header/window-header-default-collapsed-left-corners-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/window-header/window-header-default-collapsed-left-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/window-header/window-header-default-collapsed-left-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/window-header/window-header-default-collapsed-right-corners-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/window-header/window-header-default-collapsed-right-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/window-header/window-header-default-collapsed-right-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/window-header/window-header-default-collapsed-top-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/window-header/window-header-default-collapsed-top-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/window-header/window-header-default-left-corners-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/window-header/window-header-default-left-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/window-header/window-header-default-left-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/window-header/window-header-default-right-corners-rtl.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/window-header/window-header-default-right-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/window-header/window-header-default-right-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/window-header/window-header-default-top-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/window-header/window-header-default-top-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/window/toast/fade-blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/window/toast/fader.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/window/toast/icon16_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/window/toast/icon16_info.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/window/window-default-corners.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/images/window/window-default-sides.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/temp/production/CoffeeShop/slicer-temp/theme-capture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/CoffeeShop_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources/2d5e5a25-8462-4055-ad04-62abc3c80239.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/JPA_2_0_2_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Java_EE_6_Java_EE_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/META-INF/application.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/META-INF/persistence.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/coffeeshop/app/CoffeeShopApp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/coffeeshop/dao/StoreDAO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/coffeeshop/dto/InventoryRecordDTO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/coffeeshop/dto/ItemDescriptionDTO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/coffeeshop/entity/ItemDescriptionEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/coffeeshop/entity/ItemEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/coffeeshop/entity/ShoppingCartEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/coffeeshop/entity/UserEntity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/coffeeshop/resource/InventoryResource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/java/com/coffeeshop/utility/InsufficientCaffeineException.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/beans.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/app.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/cache.appcache" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/CoffeeShop-all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/CoffeeShop-all_1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/CoffeeShop-all_2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/Readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/ext/ext-watermark/Read Me.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/ext/ext-watermark/demo-files/demo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/ext/ext-watermark/demo-files/demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/ext/ext-watermark/demo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/ext/ext-watermark/fonts/ext-watermark.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/ext/ext-watermark/selection.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/ext/ext-watermark/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/production/CoffeeShop/resources/font-ext/fonts/ExtJS.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/temp/production/CoffeeShop/sass/CoffeeShop-all.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/temp/production/CoffeeShop/sass/CoffeeShop-all.scss.tmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/temp/production/CoffeeShop/sass/config.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/temp/production/CoffeeShop/sencha-compiler/app/full-page-master-bundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/temp/production/CoffeeShop/slicer-temp/CoffeeShop-example.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/temp/production/CoffeeShop/slicer-temp/CoffeeShop-example.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/temp/production/CoffeeShop/slicer-temp/CoffeeShop-example.scss.tmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/temp/production/CoffeeShop/slicer-temp/CoffeeShop-example_1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/temp/production/CoffeeShop/slicer-temp/CoffeeShop-example_2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/temp/production/CoffeeShop/slicer-temp/config.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/build/temp/production/CoffeeShop/slicer-temp/theme-capture.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/sass/example/example.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CoffeeShop.iml" afterPath="$PROJECT_DIR$/CoffeeShop.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/view/main/List.js" afterPath="$PROJECT_DIR$/web/app/view/main/List.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/app/view/main/MainController.js" afterPath="$PROJECT_DIR$/web/app/view/main/MainController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/bootstrap.json" afterPath="$PROJECT_DIR$/web/bootstrap.json" />
     </list>
     <ignored path="CoffeeShop.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,83 +527,58 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="MySQL - CoffeeShop@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="CoffeeShop" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainController.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/app/view/main/MainController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemCardController.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/app/view/itemcard/ItemCardController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Application.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/app/Application.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/app/view/main/Main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="List.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/app/view/main/List.js">
+      <file leaf-file-name="InventoryResource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/java/com/coffeeshop/resource/InventoryResource.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
-              <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+              <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Inventory.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/app/store/Inventory.js">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="885">
-              <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemCard.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/app/view/itemcard/ItemCard.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+            <state relative-caret-position="459">
+              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -117,38 +591,38 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/app/Application.js" />
-        <option value="$PROJECT_DIR$/web/app/view/main/Main.js" />
-        <option value="$PROJECT_DIR$/web/app/view/itemcard/ItemCard.js" />
-        <option value="$PROJECT_DIR$/web/app/store/Inventory.js" />
+        <option value="$PROJECT_DIR$/src/java/com/coffeeshop/utility/InsufficientCaffdineException.java" />
+        <option value="$PROJECT_DIR$/src/java/com/coffeeshop/utility/InsufficientCaffeineException.java" />
+        <option value="$PROJECT_DIR$/src/java/com/coffeeshop/entity/ItemEntity.java" />
+        <option value="$PROJECT_DIR$/src/java/com/coffeeshop/dto/InventoryRecordDTO.java" />
+        <option value="$PROJECT_DIR$/src/java/com/coffeeshop/entity/ItemDescriptionEntity.java" />
+        <option value="$PROJECT_DIR$/src/java/com/coffeeshop/resource/InventoryResource.java" />
+        <option value="$PROJECT_DIR$/src/java/com/coffeeshop/dao/StoreDAO.java" />
+        <option value="$PROJECT_DIR$/src/java/com/coffeeshop/app/CoffeeShopApp.java" />
+        <option value="$PROJECT_DIR$/src/java/com/coffeeshop/dto/ItemDescriptionDTO.java" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/web/app/view/main/List.js" />
-        <option value="$PROJECT_DIR$/web/app/view/itemcard/ItemCardController.js" />
-        <option value="$PROJECT_DIR$/web/app/view/main/MainController.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Java</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -175,8 +649,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -209,140 +681,82 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CoffeeShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CoffeeShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CoffeeShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CoffeeShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CoffeeShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CoffeeShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="itemcard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CoffeeShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CoffeeShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="store" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CoffeeShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="CoffeeShop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="2d5e5a25-8462-4055-ad04-62abc3c80239" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.25747126" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Dev\CoffeeShop\web\resources\images" />
-      <recent name="C:\Dev\CoffeeShop\web\app\view\ItemCard" />
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="java.com.coffeeshop.entity" />
+      <recent name="META-INF" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TomEE Server.testing">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -368,6 +782,150 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GlassfishConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings>
+        <option name="DOMAIN" value="" />
+        <option name="PRESERVE" value="false" />
+        <option name="COMPATIBILITY" value="false" />
+        <option name="VIRTUAL_SERVER" />
+        <option name="USERNAME" value="admin" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <predefined_log_file id="GlassFish" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -382,6 +940,15 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="depsClasspath" value="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -447,6 +1014,9 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -478,6 +1048,12 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -536,6 +1112,171 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="TomeeConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="TomEE 7.0.68" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="CoffeeShop:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_CoffeeShop" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49937" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="CoffeeShop:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="false" name="testing" type="TomeeConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="TomEE 7.0.68" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="CoffeeShop:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_CoffeeShop" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49937" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="TomEE Server.testing" />
+    </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -545,61 +1286,61 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d12ebc1e-e466-4ef8-bd9e-68057233b095" name="Default" comment="" />
-      <created>1471102874559</created>
+      <changelist id="dc7c955a-c833-477a-827c-adb687900347" name="Default" comment="" />
+      <created>1471628819579</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1471102874559</updated>
+      <updated>1471628819579</updated>
+      <workItem from="1471628824661" duration="442000" />
+      <workItem from="1471630150823" duration="7069000" />
+      <workItem from="1471914062377" duration="1997000" />
+      <workItem from="1471916325249" duration="202000" />
+      <workItem from="1471916730515" duration="1419000" />
     </task>
-    <task id="LOCAL-00001" summary="Implements product filtering, dynamic tab icon cls, and mock inventory data&#10;&#10;The grid is temporary and the filtering doesn't seem to work on any tab except the mugs tab, likely a sync problem. Not gonna bother fixing it because the grid is a placeholder. Next push will contain individual item &quot;cards&quot; on the main screen with a product picture, description, price, and buy button.">
-      <created>1471129306552</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1471129306552</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Fixes inventory grid filtering based on tab. Also adds in images to use for displaying inventory cards.&#10;&#10;In the next push I will add images of each product in the grid as well as a shopping cart">
-      <created>1471188967831</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1471188967831</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Implements item cards with description and picture of item.&#10;&#10;In next push will add a shopping cart feature and related logic.">
-      <created>1471192961067</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1471192961067</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="11129000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2203125" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.28299895" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1625" sideWeight="0.7170011" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="EJB" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -613,10 +1354,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implements product filtering, dynamic tab icon cls, and mock inventory data&#10;&#10;The grid is temporary and the filtering doesn't seem to work on any tab except the mugs tab, likely a sync problem. Not gonna bother fixing it because the grid is a placeholder. Next push will contain individual item &quot;cards&quot; on the main screen with a product picture, description, price, and buy button." />
-    <MESSAGE value="Fixes inventory grid filtering based on tab. Also adds in images to use for displaying inventory cards.&#10;&#10;In the next push I will add images of each product in the grid as well as a shopping cart" />
-    <MESSAGE value="Implements item cards with description and picture of item.&#10;&#10;In next push will add a shopping cart feature and related logic." />
-    <option name="LAST_COMMIT_MESSAGE" value="Implements item cards with description and picture of item.&#10;&#10;In next push will add a shopping cart feature and related logic." />
+    <MESSAGE value="Basic structure of a RESTful web application. Note this has not been integrated with a container yet&#10;&#10;Just for example purposes, doesn't yet run. In my next push i'll get it operational within a TomEE container and connect the front end to the back." />
+    <option name="LAST_COMMIT_MESSAGE" value="Basic structure of a RESTful web application. Note this has not been integrated with a container yet&#10;&#10;Just for example purposes, doesn't yet run. In my next push i'll get it operational within a TomEE container and connect the front end to the back." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -627,155 +1366,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/app/view/main/MainController.js">
+    <entry file="file://$PROJECT_DIR$/src/java/com/coffeeshop/resource/InventoryResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="204">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/view/itemcard/ItemCardController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/Application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/view/main/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/view/main/List.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/store/Inventory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/view/itemcard/ItemCard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/view/main/MainController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/Application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/view/main/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/view/main/List.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="14" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/store/Inventory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/sass/example/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/sass/example/custom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/sass/example/fashion.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/sass/example/render.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/sass/example/theme.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/sass/var/all.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/view/main/MainModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/Readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -787,84 +1382,277 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/store/Personnel.js" />
-    <entry file="file://$PROJECT_DIR$/web/app.js">
+    <entry file="file://$PROJECT_DIR$/src/java/com/coffeeshop/resource/InventoryResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/coffeeshop/entity/ItemEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/coffeeshop/resource/InventoryResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/coffeeshop/app/CoffeeShopApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/resources/Readme.md">
+    <entry file="file://$PROJECT_DIR$/src/java/com/coffeeshop/dto/ItemDescriptionDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="12" column="48" selection-start-line="12" selection-start-column="48" selection-end-line="12" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/view/itemcard/ItemCard.js">
+    <entry file="file://$PROJECT_DIR$/src/java/com/coffeeshop/dto/InventoryRecordDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        <state relative-caret-position="238">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CoffeeShop.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/META-INF/application.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/2d5e5a25-8462-4055-ad04-62abc3c80239/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/coffeeshop/utility/InsufficientCaffeineException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/coffeeshop/entity/ItemDescriptionEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="102" column="68" selection-start-line="102" selection-start-column="68" selection-end-line="102" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/coffeeshop/entity/ItemEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/coffeeshop/app/CoffeeShopApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/coffeeshop/dao/StoreDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/coffeeshop/dto/ItemDescriptionDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="48" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/coffeeshop/dto/InventoryRecordDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/java/com/coffeeshop/resource/InventoryResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="41" column="38" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        <state relative-caret-position="459">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/store/Inventory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="885">
-          <caret line="74" column="30" selection-start-line="74" selection-start-column="30" selection-end-line="74" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/Application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/view/main/List.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/view/itemcard/ItemCardController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/view/main/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/app/view/main/MainController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>CoffeeShop:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25747126" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>EJB (CoffeeShop)|EJB</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25747126" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>CoffeeShop</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25747126" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>JPA 2.0-2.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.25747126" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

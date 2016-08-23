@@ -1,0 +1,186 @@
+<dataSource name="MySQL - CoffeeShop@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="2.6">
+    <schema id="1" name="coffeeshop">
+      <visible>1</visible>
+    </schema>
+    <schema id="2" name="information_schema" />
+    <schema id="3" name="mysql" />
+    <schema id="4" name="performance_schema" />
+    <schema id="5" name="sys" />
+    <table id="6" parent="1" name="item" />
+    <table id="7" parent="1" name="item_description" />
+    <table id="8" parent="1" name="shopping_cart" />
+    <table id="9" parent="1" name="user" />
+    <column id="10" parent="6" name="item_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="11" parent="6" name="cart_id">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="12" parent="6" name="description_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="13" parent="6" name="is_purchased">
+      <mandatory>1</mandatory>
+      <data-type>int(1)|0</data-type>
+      <default-expression>'0'</default-expression>
+    </column>
+    <index id="14" parent="6" name="belong_to_cart_idx">
+      <columns>cart_id</columns>
+      <desc-columns />
+    </index>
+    <index id="15" parent="6" name="is_instance_of_idx">
+      <columns>description_id</columns>
+      <desc-columns />
+    </index>
+    <index id="16" parent="6" name="item_id_UNIQUE">
+      <columns>item_id</columns>
+      <desc-columns />
+      <unique>1</unique>
+    </index>
+    <key id="17" parent="6" name="PRIMARY">
+      <columns>item_id</columns>
+      <primary>1</primary>
+    </key>
+    <key id="18" parent="6" name="item_id_UNIQUE">
+      <columns>item_id</columns>
+      <underlying-index>item_id_UNIQUE</underlying-index>
+    </key>
+    <foreign-key id="19" parent="6" name="belong_to_cart">
+      <columns>cart_id</columns>
+      <ref-key>~.shopping_cart.PRIMARY</ref-key>
+      <cascade-update-rule>no_action</cascade-update-rule>
+      <cascade-delete-rule>no_action</cascade-delete-rule>
+    </foreign-key>
+    <foreign-key id="20" parent="6" name="is_instance_of">
+      <columns>description_id</columns>
+      <ref-key>~.item_description.PRIMARY</ref-key>
+      <cascade-update-rule>no_action</cascade-update-rule>
+      <cascade-delete-rule>no_action</cascade-delete-rule>
+    </foreign-key>
+    <column id="21" parent="7" name="description_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="22" parent="7" name="name">
+      <mandatory>1</mandatory>
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="23" parent="7" name="price">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="24" parent="7" name="category">
+      <mandatory>1</mandatory>
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="25" parent="7" name="picture">
+      <data-type>blob|0</data-type>
+    </column>
+    <column id="26" parent="7" name="is_deleted">
+      <mandatory>1</mandatory>
+      <data-type>int(1)|0</data-type>
+      <default-expression>'0'</default-expression>
+    </column>
+    <index id="27" parent="7" name="item_id_UNIQUE">
+      <columns>description_id</columns>
+      <desc-columns />
+      <unique>1</unique>
+    </index>
+    <index id="28" parent="7" name="name_UNIQUE">
+      <columns>name</columns>
+      <desc-columns />
+      <unique>1</unique>
+    </index>
+    <key id="29" parent="7" name="PRIMARY">
+      <columns>description_id</columns>
+      <primary>1</primary>
+    </key>
+    <key id="30" parent="7" name="item_id_UNIQUE">
+      <columns>description_id</columns>
+      <underlying-index>item_id_UNIQUE</underlying-index>
+    </key>
+    <key id="31" parent="7" name="name_UNIQUE">
+      <columns>name</columns>
+      <underlying-index>name_UNIQUE</underlying-index>
+    </key>
+    <column id="32" parent="8" name="cart_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="33" parent="8" name="date_purchased">
+      <data-type>datetime|0</data-type>
+    </column>
+    <index id="34" parent="8" name="cart_id_UNIQUE">
+      <columns>cart_id</columns>
+      <desc-columns />
+      <unique>1</unique>
+    </index>
+    <key id="35" parent="8" name="PRIMARY">
+      <columns>cart_id</columns>
+      <primary>1</primary>
+    </key>
+    <key id="36" parent="8" name="cart_id_UNIQUE">
+      <columns>cart_id</columns>
+      <underlying-index>cart_id_UNIQUE</underlying-index>
+    </key>
+    <column id="37" parent="9" name="user_id">
+      <mandatory>1</mandatory>
+      <data-type>int(11)|0</data-type>
+      <sequence-identity>1</sequence-identity>
+    </column>
+    <column id="38" parent="9" name="username">
+      <mandatory>1</mandatory>
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="39" parent="9" name="password">
+      <mandatory>1</mandatory>
+      <data-type>varchar(45)|0</data-type>
+    </column>
+    <column id="40" parent="9" name="cart_id">
+      <data-type>int(11)|0</data-type>
+    </column>
+    <column id="41" parent="9" name="is_admin">
+      <mandatory>1</mandatory>
+      <data-type>int(1)|0</data-type>
+      <default-expression>'0'</default-expression>
+    </column>
+    <index id="42" parent="9" name="username_UNIQUE">
+      <columns>username</columns>
+      <desc-columns />
+      <unique>1</unique>
+    </index>
+    <index id="43" parent="9" name="usersCart">
+      <columns>cart_id</columns>
+      <desc-columns />
+    </index>
+    <index id="44" parent="9" name="user_id_UNIQUE">
+      <columns>user_id</columns>
+      <desc-columns />
+      <unique>1</unique>
+    </index>
+    <key id="45" parent="9" name="PRIMARY">
+      <columns>user_id</columns>
+      <primary>1</primary>
+    </key>
+    <key id="46" parent="9" name="user_id_UNIQUE">
+      <columns>user_id</columns>
+      <underlying-index>user_id_UNIQUE</underlying-index>
+    </key>
+    <key id="47" parent="9" name="username_UNIQUE">
+      <columns>username</columns>
+      <underlying-index>username_UNIQUE</underlying-index>
+    </key>
+    <foreign-key id="48" parent="9" name="usersCart">
+      <columns>cart_id</columns>
+      <ref-key>~.shopping_cart.cart_id_UNIQUE</ref-key>
+      <cascade-update-rule>no_action</cascade-update-rule>
+      <cascade-delete-rule>no_action</cascade-delete-rule>
+    </foreign-key>
+  </database-model>
+</dataSource>
